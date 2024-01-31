@@ -215,10 +215,12 @@ span {
   min-width: 169px;
   white-space: nowrap;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: cubic-bezier(0.4, 0.21);
 }
 
 .button:hover {
   background-color: #404bbf;
+
 }
 
 .button:focus {
@@ -232,6 +234,7 @@ span {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
   padding: 120px 0;
+  max-width: 1440px;
 }
 
 .visually-hidden {
@@ -266,6 +269,20 @@ span {
 
 .title-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  gap: 8px;
+}
+
+.icon-container {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  background-color: #F4F4FD;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
 }
 
 .feature-text {
