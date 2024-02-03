@@ -399,13 +399,14 @@ ul.list-our-team li {
   max-width: 232px;
   gap: 24px;
   flex-shrink: 0;
-}
-
-.social {
   justify-content: center;
 }
 
-.social-list .social-link {
+.social-list {
+  justify-content: center;
+}
+
+.social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -415,16 +416,18 @@ ul.list-our-team li {
   background-color: #4D5AE5;
   fill: #F4F4FD;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  ;
 }
 
-.social-link:hover,
+.social-link:hover {
+  background-color: #404bbf;
+}
+
 .social-link:focus {
   background-color: #404bbf;
 }
 
 
-.social-list .social-link:hover {
+.social-link:hover {
   background-color: #31D0AA;
 }
 
