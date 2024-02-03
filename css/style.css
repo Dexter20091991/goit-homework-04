@@ -419,11 +419,11 @@ ul.list-our-team li {
   background-color: #31D0AA;
 }
 
-.social-link:hover {
+.social-list .social-link:hover {
   background-color: #404bbf;
 }
 
-.social-link:focus {
+.social-list .social-link:hover {
   background-color: #404bbf;
 }
 
