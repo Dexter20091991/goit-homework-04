@@ -28,6 +28,7 @@ p {
 
 img {
   display: block;
+  width: 100%;
 }
 
 
@@ -435,6 +436,26 @@ ul.list-our-team li {
   margin: 0 auto;
 }
 
+.hover-container {
+  position: relative;
+}
+
+.portfolio-text-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #4D5AE5;
+  opacity: 0;
+  color: #F4F4FD;
+  pointer-events: none;
+  padding: 40px 32px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
 .title-of-portfolio {
   color: #2e2f42;
   font-family: Roboto;
@@ -448,98 +469,29 @@ ul.list-our-team li {
   margin-bottom: 72px;
 }
 
-.first-row,
-.second-row {
-  display: flex;
-}
-
-.second-row {
-  margin-top: 48px;
-}
-
-.list-first-row {
-  display: flex;
-  flex-basis: calc((100% - 48px) / 3);
-  gap: 24px;
-}
-
-.list-row {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #E7E9FC;
-  background: var(--WHITE, #FFF);
-
-}
-
-.item-container {
-  position: relative;
-
-}
-
-.container-text {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  background-color: #4D5AE5;
-  padding: 40px 32px;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #F4F4FD;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.list-row:hover {
-  cursor: pointer;
-}
-
-.list-row:hover .container-text {
-  opacity: 1;
-  pointer-events: all;
-}
-
-
-.row-items {
-  padding: 32px 16px;
-}
-
-.title-row {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.text-row {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-
-/* .portfolio-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -24px -12px;
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 3);
   display: flex;
   flex-direction: column;
   border: 1px solid #E7E9FC;
+  margin: 24px 12px;
+
+}
+
+.portfolio-item:hover {
+  cursor: pointer;
+}
+
+.portfolio-item:hover .portfolio-text-hover {
+  opacity: 1;
+  pointer-events: all;
+
 }
 
 .items-block {
@@ -567,7 +519,7 @@ ul.list-our-team li {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-} */
+}
 
 /*FOOTER*/
 
