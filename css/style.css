@@ -576,7 +576,7 @@ ul.list-our-team li {
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -613,10 +613,13 @@ ul.list-our-team li {
   max-width: 264px;
 }
 
+.left-container {
+  margin-right: 120px;
+}
+
 .social-container-footer {
   max-width: 208px;
   flex-shrink: 0;
-  margin-left: 120px;
 
 }
 
