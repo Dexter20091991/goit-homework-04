@@ -423,8 +423,9 @@ ul.list-our-team li {
   background-color: #404bbf;
 }
 
-.social-list .social-link:focus {
+.social-icon:focus {
   background-color: #404bbf;
+
 }
 
 
