@@ -493,7 +493,7 @@ ul.list-our-team li {
 .portfolio-item:hover .portfolio-text-hover {
   opacity: 1;
   pointer-events: all;
-
+  transform: translateY(0%);
 }
 
 .items-block {
