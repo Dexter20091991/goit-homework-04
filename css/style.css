@@ -438,6 +438,7 @@ ul.list-our-team li {
 
 .hover-container {
   position: relative;
+  overflow: hidden;
 }
 
 .portfolio-text-hover {
@@ -481,6 +482,7 @@ ul.list-our-team li {
   flex-direction: column;
   border: 1px solid #E7E9FC;
   margin: 24px 12px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
