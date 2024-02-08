@@ -1,0 +1,25 @@
+<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="8" height="8" fill="#E5E5E5"/>
+<g id="Helper Components">
+<rect x="-722" y="-1910" width="1237" height="2106" rx="24" fill="white"/>
+<g id="Frame 19">
+<g id="close">
+<rect x="-27.5" y="-27.5" width="63" height="107" rx="4.5" stroke="#9747FF" stroke-dasharray="10 5"/>
+<g id="Property 1=Default">
+<g id="Ellipse 1">
+<circle cx="4" cy="4" r="12" fill="#E7E9FC"/>
+<circle cx="4" cy="4" r="11.5" stroke="black" stroke-opacity="0.1"/>
+</g>
+<g id="close-black-18dp (2) 1" clip-path="url(#clip0_296641_536)">
+<path id="Vector" d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_296641_536">
+<rect width="8" height="8" fill="white"/>
+</clipPath>
+</defs>
+</svg>
